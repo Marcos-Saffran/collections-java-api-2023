@@ -1,6 +1,6 @@
 package main.java.list.operacoes_basicas;
 
-public class Tarefa implements Comparable<Tarefa> {
+public class Tarefa {
 
     private String descricao;
 
@@ -16,13 +16,5 @@ public class Tarefa implements Comparable<Tarefa> {
     public String toString() {
         return "Tarefa [descricao=" + descricao + "]";
     }
-
-    @Override
-    public int compareTo(Tarefa o) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
-    }
-
-    
 
 }
